@@ -1,6 +1,6 @@
 # Tugas-Zoom-Practitioner-lecture
-Studi Kasus 1: Penerapan Analisis Data dan AI di Sektor Ritel (Berdasarkan Sesi 1: Make Sense of Data with Analysis and AI)
-Latar Belakang Kasus:
+# Studi Kasus 1: Penerapan Analisis Data dan AI di Sektor Ritel (Berdasarkan Sesi 1: Make Sense of Data with Analysis and AI)
+ Latar Belakang Kasus:
 
 PT Swalayan Sejahtera adalah jaringan supermarket nasional yang memiliki puluhan cabang. Selama satu tahun terakhir, manajemen melihat adanya peningkatan jumlah transaksi belanja online dan offline, namun total profit bersih supermarket justru mengalami penurunan sebesar 10%. Manajemen meminta tim data analis untuk mencari penyebab masalah ini dan memberikan rekomendasi aksi.
 
@@ -26,7 +26,7 @@ Peran Manusia dan Generative AI:
 
 Generative AI digunakan untuk mempercepat pembuatan skrip pembersihan data (data preparation) dan merangkum pola tren dari ribuan data transaksi. Namun, verifikasi alasan mendasar pemberian diskon oleh staf serta keputusan akhir skema diskon tetap dilakukan oleh analisis dan pertimbangan pengambil keputusan manusia.
 
-Studi Kasus 2: Mitigasi Bencana Erosi dan Tanah Longsor Menggunakan HPC (Berdasarkan Sesi 2: Bridging Global Infrastructure to Address Local Challenge with HPC)
+# Studi Kasus 2: Mitigasi Bencana Erosi dan Tanah Longsor Menggunakan HPC (Berdasarkan Sesi 2: Bridging Global Infrastructure to Address Local Challenge with HPC)
 Latar Belakang Kasus:
 
 Wilayah dataran tinggi di Kabupaten Lembah Hijau sering mengalami tanah longsor saat musim hujan deras tiba, mengancam permukiman warga dan jalur transportasi utama antarprovinsi. Pihak pemerintah daerah membutuhkan sistem peringatan dini spasial berpresisi tinggi yang dapat memprediksi pergerakan tanah dalam hitungan jam sebelum bencana terjadi.
@@ -45,7 +45,7 @@ Integrasi Komunitas dan Pengambil Keputusan (The Integrator):
 
 Mahasiswa dan peneliti informatika bertindak sebagai integrator yang mengolah hasil komputasi rumit HPC menjadi aplikasi peta interaktif di smartphone. Aplikasi ini memberikan alur evakuasi otomatis bagi warga dan dinas penanggulangan bencana setempat secara real-time.
 
-Studi Kasus 3: Pengelolaan Aset Industri Fasilitas Kesehatan Menggunakan GIS (Berdasarkan Sesi 3: Career and Competition in Industrial Era with GIS)
+# Studi Kasus 3: Pengelolaan Aset Industri Fasilitas Kesehatan Menggunakan GIS (Berdasarkan Sesi 3: Career and Competition in Industrial Era with GIS)
 Latar Belakang Kasus:
 
 Sebuah jaringan rumah sakit swasta RS Medika Group mengelola 15 gedung rumah sakit dan ratusan unit klinik pratama yang tersebar di wilayah perkotaan hingga pelosok. Manajemen mengalami kesulitan dalam memantau kondisi fisik bangunan, distribusi alat medis bernilai tinggi, serta pemeliharaan berkala infrastruktur gedung.
@@ -64,7 +64,7 @@ Pengambilan Keputusan Berbasis Data Spasial:
 
 Data laporan dari ponsel petugas secara otomatis tersinkronisasi (seamless) ke dashboard pusat aset. Manajemen dapat melihat kluster fasilitas yang sering rusak dan mengalokasikan anggaran pemeliharaan (maintenance budget) serta rute teknisi secara efisien.
 
-Studi Kasus 4: Deteksi Transaksi Keuangan Mencurigakan dengan Machine Learning (Berdasarkan Sesi 4: Introduction to Machine Learning)
+# Studi Kasus 4: Deteksi Transaksi Keuangan Mencurigakan dengan Machine Learning (Berdasarkan Sesi 4: Introduction to Machine Learning)
 Latar Belakang Kasus:
 
 Sebuah perusahaan Financial Technology (Fintech) PayKita ingin mencegah kejahatan penipuan (fraud) berupa pencucian uang dan penyalahgunaan akun pengguna yang frekuensinya terus meningkat seiring bertambahnya jumlah pengguna.
