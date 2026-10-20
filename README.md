@@ -86,3 +86,37 @@ Berdasarkan data histori transaksi yang sudah diberi label (Fraud / Normal), alg
 Evaluasi dan Mitigasi Bias:
 
 Model dievaluasi presisi dan akurasinya menggunakan confusion matrix agar tidak terjadi penolakan berlebihan pada transaksi sah pengguna (False Positive).
+
+# Studi Kasus 5: Perancangan Aplikasi Presensi & Beban Mengajar Dosen (IMK & Psikologi Kognitif)
+
+Latar Belakang & Masalah:
+
+Universitas Nusa Harapan meluncurkan aplikasi seluler baru untuk dosen mencatat kehadiran dan melihat alokasi jam mengajar. Namun, banyak dosen senior mengeluh karena aplikasi penuh dengan angka, teks berukuran kecil, serta tombol yang membingungkan. Mereka sering salah menekan tombol "Selesai Mengajar" padahal perkuliahan baru dimulai.
+
+Pendekatan & Solusi IMK:
+
+1. Prinsip "You are not your user": Tim pengembang melakukan riset empiris langsung kepada kelompok dosen senior, bukan berasumsi dari kodingan pengembang.
+
+2. Meminimalkan Extraneous Cognitive Load: Tata letak antarmuka dirapikan, menghilangkan informasi/elemen dekoratif yang tidak perlu agar beban kognitif otak berkurang.
+
+3. Penggunaan Pre-attentive Attributes: Tombol "Mulai Kelas" diberi warna hijau kontras dan "Akhiri Kelas" diberi warna merah. Atribut warna dan ukuran ini diproses otak dalam waktu kurang dari 200 ms untuk mencegah kesalahan tekan.
+
+4. Penerapan Recognition over Recall: Aplikasi menampilkan daftar jadwal kelas hari ini secara otomatis daripada memaksa dosen mengetik atau mengingat kode mata kuliah.
+
+# Studi Kasus 6: Klasifikasi Penyebab Deforestasi Berbasis AI & Satelit Multi-Sensor (Integrasi Penginderaan Jauh)
+
+Latar Belakang & Masalah:
+
+LSM Lingkungan di Kawasan Ekosistem Leuser membutuhkan sistem peringatan dini yang tidak hanya mendeteksi hilangnya tutupan pohon, tetapi juga mampu mengidentifikasi penyebab langsung (direct driver) di wilayah yang sering tertutup awan tebal.
+
+Pendekatan & Solusi Pembelajaran Mesin / AI:
+
+1. Penggabungan Multi-Sensor (Sentinel-1 & Sentinel-2):
+- Menggunakan citra optik (Sentinel-2) untuk kesehatan vegetasi saat cuaca cerah.
+- Menggunakan citra radar (Sentinel-1) yang dapat menembus awan untuk konsistensi data mingguan.
+
+2. Penggunaan Convolutional Neural Network (CNN): Citra dikombinasikan menjadi tumpukan multi-band (image stack) dan dimasukkan ke model deep learning CNN untuk mengklasifikasikan penyebab deforestasi secara otomatis (pertanian skala kecil, pembukaan jalan, penebangan terpilih, atau tambang).
+
+3. Disagregasi & Penilaian Akurasi:
+- Membedakan kegiatan pertanian berdasarkan ukuran luasan dan indikasi penggunaan api.
+- Evaluasi model tidak hanya menggunakan overall accuracy, melainkan melihat nilai Macro F1-Score untuk memastikan kelas minoritas (seperti pertambangan ilegal atau banjir) terdeteksi secara seimbang.
